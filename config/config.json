@@ -2,9 +2,11 @@
     "ldplayer": {
         "path": "D:\\LDPlayer\\LDPlayer9\\ldconsole.exe",
         "default_properties": {
-            "cpu": 2,
-            "memory": 2048,
-            "resolution": "720,1280,320"
+            "cpu": 1,
+            "memory": 1024,
+            "resolution": "800,480,320",
+            "fps": 30,
+            "dpi": 160
         }
     },
     "instances": {

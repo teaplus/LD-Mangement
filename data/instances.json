@@ -1,0 +1,12 @@
+{
+  "app1": {
+    "name": "app1",
+    "status": "stopped",
+    "properties": {
+      "cpu": 1,
+      "memory": 1024
+    },
+    "index": 0,
+    "pid": null
+  }
+}

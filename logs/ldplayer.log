@@ -181,3 +181,12 @@ Error: Command failed with error:
 2025-02-19 21:15:04,598 - LDPlayerManager - ERROR - Failed to parse PID for app1
 2025-02-19 21:15:06,608 - LDPlayerManager - ERROR - Failed to parse PID for app1
 2025-02-19 21:15:06,609 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:20:53,709 - LDPlayerManager - ERROR - Error in main: Expecting value: line 1 column 1 (char 0)
+2025-02-19 21:22:12,358 - LDPlayerManager - ERROR - Failed to load state: Expecting value: line 1 column 1 (char 0)
+2025-02-19 21:22:21,563 - LDPlayerManager - INFO - Created instance: app1
+2025-02-19 21:23:00,410 - LDPlayerManager - INFO - Started instance: app1
+2025-02-19 21:24:15,514 - LDPlayerManager - INFO - Stopped instance: app1
+2025-02-19 21:28:06,215 - LDPlayerManager - ERROR - Failed to load state: Expecting value: line 1 column 1 (char 0)
+2025-02-19 21:28:16,642 - LDPlayerManager - INFO - Created instance: app1
+2025-02-19 21:28:35,921 - LDPlayerManager - INFO - Started instance: app1
+2025-02-19 21:29:57,245 - LDPlayerManager - INFO - Stopped instance: app1

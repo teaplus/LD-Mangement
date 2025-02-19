@@ -47,29 +47,49 @@ class LDPlayerManager:
             index=len(self.devices)
         )
         self.devices[name] = device
+
+        # Lưu state sau khi tạo instance
+        self.save_state()
+        
         logger.info(f"Created instance: {name}")
         return device
 
     def start_instance(self, name: str) -> bool:
-        device = self.devices.get(name)
-        if not device:
-            raise InstanceError(f"Instance {name} does not exist")
+        try:
+            device = self.devices.get(name)
+            if not device:
+                raise InstanceError(f"Instance {name} does not exist")
 
-        command = [settings.ldplayer_path, "launch", "--name", name]
-        self.execute_command(command)
-        device.status = "running"
-        logger.info(f"Started instance: {name}")
-        return True
+            command = [self.ld_path, "launch", "--name", name]
+            self.execute_command(command)
+            device.status = "running"
+            
+            # Lưu state sau khi start
+            self.save_state()
+            
+            logger.info(f"Started instance: {name}")
+            return True
+        except Exception as e:
+            logger.error(f"Failed to start instance {name}: {e}")
+            raise
 
     def stop_instance(self, name: str):
-        device = self.devices.get(name)
-        if not device:
-            raise InstanceError(f"Instance {name} does not exist")
+        try:
+            device = self.devices.get(name)
+            if not device:
+                raise InstanceError(f"Instance {name} does not exist")
 
-        command = [settings.ldplayer_path, "quit", "--name", name]
-        self.execute_command(command)
-        device.status = "stopped"
-        logger.info(f"Stopped instance: {name}")
+            command = [self.ld_path, "quit", "--name", name]
+            self.execute_command(command)
+            device.status = "stopped"
+            
+            # Lưu state sau khi stop
+            self.save_state()
+            
+            logger.info(f"Stopped instance: {name}")
+        except Exception as e:
+            logger.error(f"Failed to stop instance {name}: {e}")
+            raise
 
     def install_app(self, name: str, apk_path: str):
         if name not in self.devices:
@@ -94,13 +114,26 @@ class LDPlayerManager:
 
     def load_state(self):
         try:
+            # Tạo thư mục data nếu chưa tồn tại
+            os.makedirs('data', exist_ok=True)
+            
+            # Kiểm tra file tồn tại
+            if not os.path.exists('data/instances.json'):
+                # Tạo file json trống nếu chưa có
+                with open('data/instances.json', 'w') as f:
+                    json.dump({}, f)
+                self.devices = {}
+                return
+
+            # Đọc file json
             with open('data/instances.json', 'r') as f:
                 state = json.load(f)
                 self.devices = {
                     name: Device.from_dict(data) 
                     for name, data in state.items()
                 }
-        except FileNotFoundError:
+        except Exception as e:
+            logger.error(f"Failed to load state: {e}")
             self.devices = {}
 
     def get_instance_resources(self, name: str) -> Dict:
