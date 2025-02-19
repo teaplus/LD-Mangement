@@ -1,0 +1,183 @@
+2025-02-19 20:37:07,567 - LDPlayerManager - INFO - Created instance: app1
+2025-02-19 20:37:43,942 - LDPlayerManager - ERROR - Command failed: Command '['D:\\LDPlayer\\LDPlayer9\\ldconsole.exe', 'launch', '--name', 'app1']' returned non-zero exit status 4294966295.
+2025-02-19 20:42:47,602 - LDPlayerManager - INFO - Created instance: app1
+2025-02-19 20:43:07,270 - LDPlayerManager - ERROR - Command failed: Command '['D:\\LDPlayer\\LDPlayer9\\ldconsole.exe', 'launch', '--name', 'app1']' returned non-zero exit status 4294966295.
+2025-02-19 20:44:01,642 - LDPlayerManager - ERROR - Command failed: Command '['D:\\LDPlayer\\LDPlayer9\\ldconsole.exe', 'launch', '--name', 'app1']' returned non-zero exit status 4294966295.
+2025-02-19 20:45:54,835 - LDPlayerManager - ERROR - Error executing command: D:\LDPlayer\LDPlayer9\ldconsole.exe add --name app2
+Error: Command failed with error: 
+2025-02-19 20:45:54,837 - LDPlayerManager - ERROR - Failed to create instance app2: Error executing command: D:\LDPlayer\LDPlayer9\ldconsole.exe add --name app2
+Error: Command failed with error: 
+2025-02-19 20:47:46,801 - LDPlayerManager - ERROR - Error executing command: D:\LDPlayer\LDPlayer9\ldconsole.exe add --name app1
+Error: Command failed with error: 
+2025-02-19 20:47:46,802 - LDPlayerManager - ERROR - Failed to create instance app1: Error executing command: D:\LDPlayer\LDPlayer9\ldconsole.exe add --name app1
+Error: Command failed with error: 
+2025-02-19 20:50:13,925 - LDPlayerManager - ERROR - Error executing command: D:\LDPlayer\LDPlayer9\ldconsole.exe add --name app1
+Error: Command failed with error: 
+2025-02-19 20:50:13,927 - LDPlayerManager - ERROR - Failed to create instance app1: Error executing command: D:\LDPlayer\LDPlayer9\ldconsole.exe add --name app1
+Error: Command failed with error: 
+2025-02-19 20:50:40,385 - LDPlayerManager - INFO - Created instance: app 1
+2025-02-19 20:51:28,468 - LDPlayerManager - ERROR - Command failed: Command '['D:\\LDPlayer\\LDPlayer9\\ldconsole.exe', 'launch', '--name', 'app 1']' returned non-zero exit status 4294966295.
+2025-02-19 20:52:29,370 - LDPlayerManager - ERROR - Command failed: Command '['D:\\LDPlayer\\LDPlayer9\\ldconsole.exe', 'launch', '--name', 'app 1']' returned non-zero exit status 4294966295.
+2025-02-19 20:53:30,180 - LDPlayerManager - ERROR - Error in main: name 'json' is not defined
+2025-02-19 20:53:42,507 - LDPlayerManager - ERROR - Error in main: name 'json' is not defined
+2025-02-19 20:54:14,049 - LDPlayerManager - INFO - Created instance: app1
+2025-02-19 20:54:21,997 - LDPlayerManager - INFO - Started instance: app1
+2025-02-19 20:58:07,409 - LDPlayerManager - INFO - Created instance: app1
+2025-02-19 21:12:31,562 - LDPlayerManager - INFO - Created instance: app1
+2025-02-19 21:12:35,988 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:12:35,988 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:12:36,599 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:12:36,600 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:12:38,600 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:12:38,601 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:12:40,591 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:12:40,591 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:12:42,601 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:12:42,601 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:12:44,597 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:12:44,598 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:12:46,595 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:12:46,596 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:12:48,594 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:12:48,595 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:12:50,596 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:12:50,597 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:12:52,594 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:12:52,595 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:12:54,593 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:12:54,594 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:12:56,599 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:12:56,599 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:12:58,076 - LDPlayerManager - INFO - Created instance: App2
+2025-02-19 21:12:58,584 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:12:58,585 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:00,631 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:00,632 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:02,595 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:02,596 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:04,586 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:04,587 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:06,589 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:06,589 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:08,583 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:08,584 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:10,595 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:10,595 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:12,167 - LDPlayerManager - INFO - Started instance: app1
+2025-02-19 21:13:12,591 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:12,591 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:14,599 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:14,600 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:16,609 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:16,610 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:18,608 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:18,608 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:20,606 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:20,607 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:22,643 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:22,645 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:24,606 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:24,606 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:26,619 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:26,620 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:28,623 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:28,624 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:30,614 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:30,614 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:32,657 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:32,658 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:35,875 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:35,876 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:36,671 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:36,690 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:38,632 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:38,634 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:40,604 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:40,606 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:42,622 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:42,622 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:44,604 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:44,605 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:46,646 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:46,647 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:48,651 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:48,653 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:50,627 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:50,628 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:52,649 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:52,650 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:54,684 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:54,685 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:56,747 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:56,749 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:58,661 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:13:58,662 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:00,679 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:00,680 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:02,708 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:02,709 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:04,747 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:04,775 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:06,666 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:06,667 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:08,616 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:08,617 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:10,636 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:10,638 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:12,648 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:12,648 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:14,674 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:14,675 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:16,617 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:16,618 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:18,621 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:18,622 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:20,625 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:20,626 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:22,633 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:22,634 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:24,639 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:24,640 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:26,612 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:26,613 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:28,637 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:28,639 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:30,641 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:30,642 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:32,607 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:32,607 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:34,605 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:34,606 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:36,712 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:36,713 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:38,665 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:38,666 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:40,628 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:40,629 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:42,638 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:42,639 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:44,609 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:44,609 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:46,583 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:46,583 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:48,365 - LDPlayerManager - INFO - Stopped instance: app1
+2025-02-19 21:14:48,605 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:48,606 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:50,593 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:50,593 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:52,607 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:52,612 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:54,595 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:54,595 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:56,589 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:56,590 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:58,593 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:14:58,593 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:15:00,590 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:15:00,590 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:15:02,606 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:15:02,607 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:15:04,597 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:15:04,598 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:15:06,608 - LDPlayerManager - ERROR - Failed to parse PID for app1
+2025-02-19 21:15:06,609 - LDPlayerManager - ERROR - Failed to parse PID for app1

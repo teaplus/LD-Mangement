@@ -1,0 +1,22 @@
+{
+    "ldplayer": {
+        "path": "D:\\LDPlayer\\LDPlayer9\\ldconsole.exe",
+        "default_properties": {
+            "cpu": 2,
+            "memory": 2048,
+            "resolution": "720,1280,320"
+        }
+    },
+    "instances": {
+        "max_count": 5,
+        "startup_delay": 5
+    },
+    "apps": {
+        "default_package": "com.your.app",
+        "apk_path": "path/to/your/app.apk"
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "logs/ldplayer.log"
+    }
+}
